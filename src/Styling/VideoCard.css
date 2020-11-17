@@ -1,0 +1,5 @@
+.videoCard {
+	border: 1px solid black;
+	flex: 0.25;
+	max-height: 250px;
+}
