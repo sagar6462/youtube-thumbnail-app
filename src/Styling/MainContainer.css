@@ -1,6 +1,19 @@
 .maincontainer {
-	border: 1px solid black;
+	background-color: #f9f9f9;
 	flex: 0.8;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.maincontainer__title {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.maincontainer__videos {
+	/*border: 1px solid black;*/
+
 	display: flex;
 	align-items: flex-start;
+	flex-wrap: wrap;
+	align-content: flex-start;
 }
